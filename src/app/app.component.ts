@@ -19,8 +19,8 @@ import { DataService } from './data.service';
 @Component({
   selector: 'app-root',
   template:
-  `<h1 [ngStyle]=”titleStyles”>Hello</h1>
-  <h1 [style. color]=” toggleStyle ? ‘green’ : ‘pink’ ”>Hello</h1>
+  `<h1 [ngStyle]="titleStyles">Hello</h1>
+  <h1 [style. color]=" toggleStyle ? 'green' : 'pink' ">Hello</h1>
   `,
   styleUrls: ['./app.component.css']
 })
